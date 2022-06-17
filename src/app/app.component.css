@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400; 500;700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #141414;
+    text-decoration: none;
+}
+header {
+    position: relative;
+    background-color: #fff;
+    width: 100vw;
+    border-bottom: 1px solid #ccc;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    padding-left: 38px;
+    justify-content: space-between;
+}
+header .header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 28rem;
+}
+header a img {
+    margin-left: 5%;
+    cursor: pointer;
+    height: 70px;
+}
+header ul {
+    list-style-type: none;
+    margin-right: 5%;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+header ul li {
+    padding: 2%;
+    margin-left: 5%;
+    width: 10rem;
+    border-radius: 25px;
+    transition: all ease 0.2s;
+}
+header ul li:hover {
+    background-color: #cc0000;
+    color: white;
+}
+header ul li:hover a {
+    color: white;
+}
+header .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15rem;
+    padding-right: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header .nav-bar #active {
+    color: #cc0000;
+    font-weight: 700;
+}
+.menu {
+    width: 100vw;
+    height: 3.75rem;
+    background-color: #cc0000;
+}
+.menu ul {
+    position: absolute;
+    height: inherit;
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    place-content: center flex-start;
+    list-style: none;
+    margin: 0px;
+    padding-left: 2rem;
+    position: relative;  
+}
+.menu ul li {
+    margin-left: 0.5rem;
+    text-align: center;
+    font-size: 18px;
+    width: 200px;
+    cursor: pointer;
+    padding: 17px 10px 5px 10px;
+    transition: all ease 0.3s;
+}
+.menu ul li:hover {
+    background-color: #19191940;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
